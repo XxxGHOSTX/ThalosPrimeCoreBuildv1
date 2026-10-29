@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local environments and editor metadata
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Runtime data, databases, logs, credentials and key material
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.log
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa
+id_ed25519
+
+# Build and operating-system artifacts
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
